@@ -1,0 +1,486 @@
+@import "tailwindcss";
+
+html {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+body {
+  @apply m-0 min-h-screen bg-slate-50;
+}
+
+/* Layout styles using CSS classes */
+.layout {
+  @apply min-h-screen flex flex-col;
+}
+
+.layout__content {
+  @apply flex-1 px-6 py-6 max-w-5xl mx-auto w-full;
+}
+
+/* Navbar */
+.navbar {
+  @apply flex items-center justify-between px-6 py-4 bg-white sticky top-0 z-10 border-b border-slate-200;
+}
+
+.navbar__brand a {
+  @apply font-bold text-2xl;
+}
+
+.navbar__brand span {
+  @apply text-red-500;
+}
+
+.navbar__links {
+  @apply flex gap-4;
+}
+
+.navbar__toggle {
+  @apply hidden bg-slate-100 border-none rounded-xl px-3 py-2 text-lg cursor-pointer;
+}
+
+.navbar__links a {
+  @apply px-3 py-2 rounded-xl text-slate-600 transition;
+}
+
+.navbar__links a.active {
+  @apply bg-slate-50 text-slate-900;
+}
+
+/* Footer */
+.footer {
+  @apply bg-slate-950 text-white flex justify-between px-6 py-6 flex-wrap gap-3;
+}
+
+/* Buttons */
+.btn {
+  @apply border-none rounded-full font-semibold cursor-pointer inline-flex items-center justify-center gap-2 transition-all;
+}
+
+.btn:disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
+
+.btn--primary {
+  @apply bg-red-500 text-white hover:bg-red-700 disabled:hover:bg-red-500;
+}
+
+.btn--outline {
+  @apply bg-transparent border border-slate-200 text-slate-900;
+}
+
+.btn--ghost {
+  @apply bg-slate-100 text-slate-900;
+}
+
+.btn--secondary {
+  @apply bg-slate-950 text-white;
+}
+
+.btn--sm {
+  @apply px-3 py-1.5 text-sm;
+}
+
+.btn--md {
+  @apply px-4 py-2 text-base;
+}
+
+.btn--lg {
+  @apply px-7 py-3 text-base;
+}
+
+/* Badge */
+.badge {
+  @apply inline-block px-2 py-0.5 rounded-full text-xs font-semibold;
+}
+
+.badge--accent {
+  @apply bg-red-100 text-red-600;
+}
+
+.badge--success {
+  @apply bg-green-100 text-green-700;
+}
+
+.badge--warning {
+  @apply bg-yellow-100 text-yellow-900;
+}
+
+.badge--neutral {
+  @apply bg-slate-100 text-slate-700;
+}
+
+/* Search Bar */
+.search-bar {
+  @apply flex items-center gap-2 px-4 py-2 bg-white rounded-full border border-slate-200;
+}
+
+.search-bar:focus-within {
+  @apply border-red-500;
+}
+
+.search-bar__input {
+  @apply border-none outline-none flex-1 bg-transparent text-base;
+}
+
+/* Cart Icon */
+.cart-icon {
+  @apply inline-flex items-center gap-2 px-3 py-2 rounded-full bg-slate-950 text-white no-underline;
+}
+
+/* Category Filter */
+.category-filter {
+  @apply grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 my-6;
+}
+
+.category-filter button {
+  @apply border border-slate-200 rounded-xl p-3 text-left bg-white cursor-pointer flex gap-2 transition hover:border-red-500;
+}
+
+.category-filter button.is-active {
+  @apply border-red-500 -translate-y-1;
+}
+
+/* Product Grid */
+.product-grid {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4;
+}
+
+/* Page */
+.page {
+  @apply grid gap-8;
+}
+
+.page-header {
+  @apply flex justify-between items-center flex-wrap gap-4;
+}
+
+/* Product Card */
+.product-card {
+  @apply bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition flex flex-col;
+}
+
+.product-card__media {
+  @apply w-full h-40 bg-gray-100 overflow-hidden;
+}
+
+.product-card__media img {
+  @apply w-full h-full object-cover;
+}
+
+.product-card__body {
+  @apply p-4 flex flex-col gap-2;
+}
+
+.product-card__labels {
+  @apply flex gap-1 flex-wrap;
+}
+
+.product-card__footer {
+  @apply flex items-center justify-between font-semibold;
+}
+
+.product-card__actions {
+  @apply flex gap-2;
+}
+
+/* Hero */
+.hero {
+  @apply bg-white rounded-3xl px-8 py-8 grid grid-cols-1 md:grid-cols-2 gap-6 items-center shadow-md;
+}
+
+.hero h1 {
+  @apply text-3xl md:text-4xl lg:text-5xl font-bold;
+}
+
+.hero h1 span {
+  @apply text-red-500;
+}
+
+/* Home Section */
+.home-section {
+  @apply bg-white rounded-2xl px-6 py-6 shadow-md;
+}
+
+.home-section header {
+  @apply flex justify-between items-center;
+}
+
+.category-cards {
+  @apply grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-4;
+}
+
+.category-card {
+  @apply border border-slate-200 rounded-lg p-3 flex gap-2 bg-slate-50;
+}
+
+/* Product Detail */
+.product-detail {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-8 bg-white p-8 rounded-3xl shadow-md;
+}
+
+.product-detail__description {
+  @apply text-slate-600;
+}
+
+/* Pill Options */
+.pill-options {
+  @apply flex flex-wrap gap-2;
+}
+
+.pill-options button {
+  @apply border border-slate-200 bg-white rounded-full px-4 py-2 cursor-pointer transition hover:border-red-500;
+}
+
+.pill-options button.is-active {
+  @apply border-red-500 bg-red-100;
+}
+
+/* Extra Options */
+.extra-options {
+  @apply grid gap-2;
+}
+
+.extra-options__item {
+  @apply flex items-center gap-2 p-2 border border-slate-200 rounded-xl;
+}
+
+/* Quantity Selector */
+.quantity-selector {
+  @apply inline-flex items-center gap-2 px-2 py-1 rounded-full bg-slate-100;
+}
+
+.quantity-selector__value {
+  @apply min-w-6 text-center font-semibold;
+}
+
+/* Cart Page */
+.cart-page {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+}
+
+.cart-list {
+  @apply md:col-span-2 flex flex-col gap-4;
+}
+
+.cart-item {
+  @apply grid grid-cols-[100px_1fr] gap-4 bg-white rounded-2xl p-4 shadow-md;
+}
+
+.cart-item img {
+  @apply w-full h-24 object-cover rounded;
+}
+
+.cart-item__header {
+  @apply flex justify-between items-start;
+}
+
+.cart-item__meta {
+  @apply flex flex-col gap-1 text-slate-600 text-sm;
+}
+
+.cart-item__footer {
+  @apply flex justify-between items-center;
+}
+
+.cart-summary {
+  @apply bg-white px-6 py-6 rounded-2xl shadow-md flex flex-col gap-3;
+}
+
+.cart-summary__row,
+.cart-summary__total {
+  @apply flex justify-between;
+}
+
+.cart-summary__row--success {
+  @apply text-green-700;
+}
+
+.cart-summary__total {
+  @apply border-t border-dashed border-slate-200 pt-3 text-lg font-bold;
+}
+
+/* Coupon Input */
+.coupon-input {
+  @apply flex flex-col gap-2;
+}
+
+.coupon-input input {
+  @apply px-3 py-2 rounded-full border border-slate-200;
+}
+
+.coupon-input__helper {
+  @apply text-slate-600 text-sm;
+}
+
+/* Cart Empty */
+.cart-empty {
+  @apply bg-white rounded-2xl px-8 py-12 text-center shadow-md;
+}
+
+/* Modal */
+.modal {
+  @apply fixed inset-0 z-50 flex items-center justify-center;
+}
+
+.modal__backdrop {
+  @apply absolute inset-0 bg-black/50;
+}
+
+.modal__content {
+  @apply relative bg-white rounded-2xl shadow-xl z-10 max-w-md w-full mx-4;
+}
+
+.modal__header {
+  @apply flex justify-between items-center px-6 py-4 border-b border-slate-200;
+}
+
+.modal__header h3 {
+  @apply m-0 font-bold;
+}
+
+.modal__close {
+  @apply bg-none border-none text-2xl cursor-pointer;
+}
+
+.modal__body {
+  @apply px-6 py-6;
+}
+
+.modal__footer {
+  @apply px-6 py-4 border-t border-slate-200 flex gap-3;
+}
+
+/* Checkout Layout */
+.checkout-layout {
+  @apply grid grid-cols-1 md:grid-cols-3 gap-6;
+}
+
+.checkout-form,
+.card {
+  @apply bg-white px-6 py-6 rounded-2xl shadow-md flex flex-col gap-4 md:col-span-2;
+}
+
+.card {
+  @apply md:col-span-1;
+}
+
+.form-grid {
+  @apply grid grid-cols-1 md:grid-cols-2 gap-4;
+}
+
+.form-grid__full {
+  @apply col-span-full;
+}
+
+label {
+  @apply flex flex-col gap-1 font-medium;
+}
+
+input,
+textarea {
+  @apply rounded-lg px-3 py-2 border border-slate-200;
+}
+
+.delivery-options,
+.payment-options {
+  @apply grid gap-3;
+}
+
+.delivery-options__item,
+.payment-options__item {
+  @apply border border-slate-200 p-3 rounded-lg flex gap-2 items-center;
+}
+
+/* Order Card */
+.order-card {
+  @apply grid gap-2;
+}
+
+.order-summary-list {
+  @apply list-none p-0 grid gap-2;
+}
+
+.order-summary-list li {
+  @apply border-b border-dashed border-slate-200 pb-2;
+}
+
+.order-summary-list li:last-child {
+  @apply border-b-0;
+}
+
+/* Toast */
+.toast {
+  @apply fixed top-5 right-5 px-4 py-3 rounded-full text-white shadow-lg z-50;
+}
+
+.toast--success {
+  @apply bg-green-500;
+}
+
+.toast--error {
+  @apply bg-red-600;
+}
+
+/* Loader */
+.loader {
+  @apply inline-flex items-center gap-2;
+}
+
+.loader__spinner {
+  @apply w-3 h-3 rounded-full border-4 border-slate-200 border-t-slate-900;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Orders List */
+.orders-list {
+  @apply grid gap-4;
+}
+
+.status {
+  @apply inline-block rounded-full px-3 py-1 text-xs font-semibold;
+}
+
+.status--hazırlanıyor {
+  @apply bg-yellow-100 text-yellow-900;
+}
+
+.status--yolda {
+  @apply bg-blue-100 text-blue-900;
+}
+
+.status--teslim-edildi {
+  @apply bg-green-100 text-green-900;
+}
+
+/* Not Found */
+.not-found {
+  @apply text-center py-20;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    @apply flex-wrap;
+  }
+
+  .navbar__toggle {
+    @apply block;
+  }
+
+  .navbar__links {
+    @apply w-full flex-col hidden;
+  }
+
+  .navbar__links.is-open {
+    @apply flex;
+  }
+
+  .hero {
+    @apply grid-cols-1;
+  }
+}

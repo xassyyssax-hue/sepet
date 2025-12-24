@@ -1,0 +1,67 @@
+[
+  {
+    "id": "o1",
+    "orderNumber": "RS-12021",
+    "date": "2024-05-14T12:30:00.000Z",
+    "status": "Teslim Edildi",
+    "items": [
+      {
+        "productId": "p2",
+        "name": "Trakya Burger",
+        "quantity": 2,
+        "size": "Double",
+        "extras": ["Ekstra Peynir"],
+        "note": "Sosu ayrı gönderin",
+        "price": 255
+      },
+      {
+        "productId": "p6",
+        "name": "Soğuk Demleme Hibiskus",
+        "quantity": 1,
+        "size": "Grande",
+        "extras": [],
+        "note": "",
+        "price": 75
+      }
+    ],
+    "address": {
+      "city": "İstanbul",
+      "district": "Beşiktaş",
+      "neighborhood": "Türkali",
+      "detail": "Serencebey Yokuşu No:18"
+    },
+    "paymentMethod": "Kapıda Kart",
+    "subtotal": 555,
+    "tax": 49.95,
+    "discount": 55.5,
+    "total": 549.45
+  },
+  {
+    "id": "o2",
+    "orderNumber": "RS-12058",
+    "date": "2024-04-02T19:15:00.000Z",
+    "status": "Yolda",
+    "items": [
+      {
+        "productId": "p3",
+        "name": "Rumeli Four Cheese Pizza",
+        "quantity": 1,
+        "size": "Büyük",
+        "extras": ["Ekstra Mozzarella"],
+        "note": "",
+        "price": 265
+      }
+    ],
+    "address": {
+      "city": "İstanbul",
+      "district": "Kadıköy",
+      "neighborhood": "Moda",
+      "detail": "Ali Suavi Sok. No:6"
+    },
+    "paymentMethod": "Online",
+    "subtotal": 265,
+    "tax": 23.85,
+    "discount": 26.5,
+    "total": 262.35
+  }
+]

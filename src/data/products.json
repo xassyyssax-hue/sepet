@@ -1,0 +1,380 @@
+[
+  {
+    "id": "p1",
+    "name": "Classic Kebap Tabağı",
+    "description": "Izgara özel soslu kebap, közlenmiş biber ve domates ile servis edilir.",
+    "image": "/images/classic-kebap-tabagi.svg",
+    "category": "ana-yemekler",
+    "price": 280,
+    "sizes": [
+      { "name": "Tek", "price": 0 },
+      { "name": "Çift", "price": 60 }
+    ],
+    "extras": [
+      { "name": "Soslu Pilav", "price": 25 },
+      { "name": "Acı Ezme", "price": 18 }
+    ],
+    "nutrition": { "calories": 720, "protein": 42, "carbs": 55, "fat": 32 },
+    "isPopular": true,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p2",
+    "name": "Trakya Burger",
+    "description": "Çedarlı dana köfte, karamelize soğan ve trüf mayonez.",
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=800&q=80",
+    "category": "burgerler",
+    "price": 195,
+    "sizes": [
+      { "name": "Standart", "price": 0 },
+      { "name": "Double", "price": 45 }
+    ],
+    "extras": [
+      { "name": "Ekstra Peynir", "price": 15 },
+      { "name": "Dana Bacon", "price": 22 }
+    ],
+    "nutrition": { "calories": 640, "protein": 38, "carbs": 45, "fat": 28 },
+    "isPopular": true,
+    "isNew": true,
+    "discount": 10
+  },
+  {
+    "id": "p3",
+    "name": "Rumeli Four Cheese Pizza",
+    "description": "Mozzarella, rokfor, kaşar ve parmesan ile taş fırında.",
+    "image": "/images/rumeli-four-cheese-pizza.svg",
+    "category": "pizzalar",
+    "price": 210,
+    "sizes": [
+      { "name": "Orta", "price": 0 },
+      { "name": "Büyük", "price": 40 }
+    ],
+    "extras": [
+      { "name": "Ekstra Mozzarella", "price": 20 },
+      { "name": "Trüf Yağı", "price": 28 }
+    ],
+    "nutrition": { "calories": 860, "protein": 34, "carbs": 90, "fat": 42 },
+    "isPopular": true,
+    "isNew": false,
+    "discount": 15
+  },
+  {
+    "id": "p4",
+    "name": "Ege Otlu Salata",
+    "description": "Izgara halloumi peynirli, nar ekşili taze salata.",
+    "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&w=800&q=80",
+    "category": "salatalar",
+    "price": 145,
+    "sizes": [],
+    "extras": [
+      { "name": "Avokado", "price": 18 },
+      { "name": "Kinoa", "price": 15 }
+    ],
+    "nutrition": { "calories": 360, "protein": 19, "carbs": 32, "fat": 16 },
+    "isPopular": false,
+    "isNew": true,
+    "discount": 0
+  },
+  {
+    "id": "p5",
+    "name": "Karadeniz Laz Böreği",
+    "description": "Gerçek tereyağlı çıtır laz böreği.",
+    "image": "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80",
+    "category": "tatlilar",
+    "price": 95,
+    "sizes": [],
+    "extras": [
+      { "name": "Dondurma", "price": 18 },
+      { "name": "Fındık Kırığı", "price": 12 }
+    ],
+    "nutrition": { "calories": 420, "protein": 8, "carbs": 58, "fat": 18 },
+    "isPopular": true,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p6",
+    "name": "Soğuk Demleme Hibiskus",
+    "description": "Serinletici hibiskus çayı, limon ve yaban mersini ile.",
+    "image": "https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?auto=format&fit=crop&w=800&q=80",
+    "category": "icecekler",
+    "price": 75,
+    "sizes": [
+      { "name": "Grande", "price": 0 },
+      { "name": "Venti", "price": 12 }
+    ],
+    "extras": [
+      { "name": "Çarkıfelek Püresi", "price": 10 },
+      { "name": "Nane Şurubu", "price": 8 }
+    ],
+    "nutrition": { "calories": 80, "protein": 0, "carbs": 20, "fat": 0 },
+    "isPopular": false,
+    "isNew": true,
+    "discount": 0
+  },
+  {
+    "id": "p7",
+    "name": "Izgara Köfte Dürüm",
+    "description": "Odun ateşinde pişmiş köfte, domates sosu, lavaşa sarılı.",
+    "image": "https://images.unsplash.com/photo-1633945274405-89d276075f69?auto=format&fit=crop&w=800&q=80",
+    "category": "ana-yemekler",
+    "price": 165,
+    "sizes": [],
+    "extras": [
+      { "name": "Ekstra Acı Sos", "price": 8 },
+      { "name": "Izgara Sebze", "price": 20 }
+    ],
+    "nutrition": { "calories": 520, "protein": 30, "carbs": 48, "fat": 22 },
+    "isPopular": true,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p8",
+    "name": "Anadolu Karışık Pizza",
+    "description": "Sucuk, pastırma, mantar, zeytin, mozarella.",
+    "image": "https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&w=800&q=80",
+    "category": "pizzalar",
+    "price": 225,
+    "sizes": [
+      { "name": "Orta", "price": 0 },
+      { "name": "Büyük", "price": 35 }
+    ],
+    "extras": [
+      { "name": "Ekstra Pastırma", "price": 28 },
+      { "name": "Mantı Sosu", "price": 18 }
+    ],
+    "nutrition": { "calories": 920, "protein": 40, "carbs": 95, "fat": 44 },
+    "isPopular": false,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p9",
+    "name": "Nohutlu Akdeniz Bowl",
+    "description": "Fırın nohut, humus, közlenmiş sebze ve tahin sos.",
+    "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=800&q=80",
+    "category": "salatalar",
+    "price": 155,
+    "sizes": [],
+    "extras": [
+      { "name": "Falafel", "price": 18 },
+      { "name": "Humus", "price": 10 }
+    ],
+    "nutrition": { "calories": 410, "protein": 17, "carbs": 52, "fat": 14 },
+    "isPopular": false,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p10",
+    "name": "Lotus Cheesecake",
+    "description": "Karamelize lotus bisküvi tabanlı cheesecake.",
+    "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?auto=format&fit=crop&w=800&q=80",
+    "category": "tatlilar",
+    "price": 110,
+    "sizes": [],
+    "extras": [
+      { "name": "Tuzlu Karamel", "price": 12 },
+      { "name": "Orman Meyvesi", "price": 15 }
+    ],
+    "nutrition": { "calories": 480, "protein": 9, "carbs": 52, "fat": 24 },
+    "isPopular": true,
+    "isNew": true,
+    "discount": 0
+  },
+  {
+    "id": "p11",
+    "name": "Boğaziçi Balık Tabağı",
+    "description": "Izgara levrek, zeytinyağlı sebze ve limon sos.",
+    "image": "https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=800&q=80",
+    "category": "ana-yemekler",
+    "price": 315,
+    "sizes": [],
+    "extras": [
+      { "name": "Sarımsaklı Ispanak", "price": 24 },
+      { "name": "Hardal Sos", "price": 12 }
+    ],
+    "nutrition": { "calories": 540, "protein": 46, "carbs": 28, "fat": 26 },
+    "isPopular": false,
+    "isNew": true,
+    "discount": 0
+  },
+  {
+    "id": "p12",
+    "name": "Anadolu Falafel Burger",
+    "description": "Falafel köftesi, turşu, tahinli yoğurt sosu.",
+    "image": "https://images.unsplash.com/photo-1481391032119-d89fee407e44?auto=format&fit=crop&w=800&q=80",
+    "category": "burgerler",
+    "price": 175,
+    "sizes": [],
+    "extras": [
+      { "name": "Ekstra Falafel", "price": 20 },
+      { "name": "Pancar Turşusu", "price": 12 }
+    ],
+    "nutrition": { "calories": 520, "protein": 21, "carbs": 65, "fat": 18 },
+    "isPopular": false,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p13",
+    "name": "Trileçe Trio",
+    "description": "Klasik, karamelli ve frambuazlı üç mini porsiyon.",
+    "image": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=800&q=80",
+    "category": "tatlilar",
+    "price": 135,
+    "sizes": [],
+    "extras": [
+      { "name": "Lotus Crumble", "price": 14 },
+      { "name": "Kavrulmuş Fındık", "price": 12 }
+    ],
+    "nutrition": { "calories": 450, "protein": 11, "carbs": 58, "fat": 18 },
+    "isPopular": false,
+    "isNew": true,
+    "discount": 0
+  },
+  {
+    "id": "p14",
+    "name": "Antep Fıstıklı Milkshake",
+    "description": "Ev yapımı dondurma ve gerçek Antep fıstığı ile.",
+    "image": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=800&q=80",
+    "category": "icecekler",
+    "price": 105,
+    "sizes": [],
+    "extras": [
+      { "name": "Sıcak Çikolata Sosu", "price": 10 },
+      { "name": "Karamel Draje", "price": 8 }
+    ],
+    "nutrition": { "calories": 520, "protein": 12, "carbs": 58, "fat": 24 },
+    "isPopular": true,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p15",
+    "name": "Karabuğdaylı Peynirli Salata",
+    "description": "Karabuğday tabanlı, keçi peynirli doyurucu salata.",
+    "image": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=800&q=80",
+    "category": "salatalar",
+    "price": 165,
+    "sizes": [],
+    "extras": [
+      { "name": "Fırın Bezelye", "price": 12 },
+      { "name": "Ceviz", "price": 10 }
+    ],
+    "nutrition": { "calories": 390, "protein": 18, "carbs": 42, "fat": 16 },
+    "isPopular": false,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p16",
+    "name": "Çıtır Tavuklu Pizza",
+    "description": "BBQ soslu çıtır tavuk ve karamelize soğan.",
+    "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=800&q=80",
+    "category": "pizzalar",
+    "price": 205,
+    "sizes": [
+      { "name": "Orta", "price": 0 },
+      { "name": "Büyük", "price": 38 }
+    ],
+    "extras": [
+      { "name": "Ekstra BBQ Sos", "price": 12 },
+      { "name": "Mısır", "price": 8 }
+    ],
+    "nutrition": { "calories": 780, "protein": 36, "carbs": 82, "fat": 32 },
+    "isPopular": false,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p17",
+    "name": "Burger Bowl",
+    "description": "Ekmeksiz burger kasesi, kinoalı taban.",
+    "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=800&q=80",
+    "category": "burgerler",
+    "price": 185,
+    "sizes": [],
+    "extras": [
+      { "name": "Tatlı Patates", "price": 14 },
+      { "name": "Turşu Mix", "price": 9 }
+    ],
+    "nutrition": { "calories": 510, "protein": 34, "carbs": 38, "fat": 22 },
+    "isPopular": false,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p18",
+    "name": "Çikolatalı Bomba",
+    "description": "Sıcak çikolata sosu ile servis edilen içi dolgulu tatlı.",
+    "image": "https://images.unsplash.com/photo-1505253758473-96b7015fcd40?auto=format&fit=crop&w=800&q=80",
+    "category": "tatlilar",
+    "price": 125,
+    "sizes": [],
+    "extras": [
+      { "name": "Vanilyalı Dondurma", "price": 15 },
+      { "name": "Fıstık Kırığı", "price": 12 }
+    ],
+    "nutrition": { "calories": 560, "protein": 10, "carbs": 62, "fat": 28 },
+    "isPopular": true,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p19",
+    "name": "Rumeli Sucuklu Pide",
+    "description": "Odun ateşinde pişmiş geleneksel pide.",
+    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=800&q=80",
+    "category": "ana-yemekler",
+    "price": 190,
+    "sizes": [],
+    "extras": [
+      { "name": "Ekstra Kaşar", "price": 14 },
+      { "name": "Bol Sucuk", "price": 18 }
+    ],
+    "nutrition": { "calories": 680, "protein": 32, "carbs": 72, "fat": 28 },
+    "isPopular": false,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p20",
+    "name": "Soğuk Brew Kahve",
+    "description": "12 saat demlenen özel kahve çekirdeği.",
+    "image": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=800&q=80",
+    "category": "icecekler",
+    "price": 85,
+    "sizes": [
+      { "name": "Grande", "price": 0 },
+      { "name": "Venti", "price": 10 }
+    ],
+    "extras": [
+      { "name": "Vanilya Şurubu", "price": 8 },
+      { "name": "Yulaf Sütü", "price": 6 }
+    ],
+    "nutrition": { "calories": 40, "protein": 1, "carbs": 6, "fat": 1 },
+    "isPopular": false,
+    "isNew": false,
+    "discount": 0
+  },
+  {
+    "id": "p21",
+    "name": "Tam Buğdaylı Veggie Wrap",
+    "description": "Köz sebze, humus ve fesleğenli pesto dolu wrap.",
+    "image": "https://images.unsplash.com/photo-1452195100486-9cc805987862?auto=format&fit=crop&w=800&q=80",
+    "category": "ana-yemekler",
+    "price": 155,
+    "sizes": [],
+    "extras": [
+      { "name": "Pane Hellim", "price": 22 },
+      { "name": "Trüf Mayonez", "price": 12 }
+    ],
+    "nutrition": { "calories": 430, "protein": 20, "carbs": 48, "fat": 16 },
+    "isPopular": false,
+    "isNew": true,
+    "discount": 0
+  }
+]

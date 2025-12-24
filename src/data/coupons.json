@@ -1,0 +1,26 @@
+[
+  {
+    "code": "YENI20",
+    "discountType": "percentage",
+    "discountValue": 20,
+    "minOrderAmount": 300,
+    "isActive": true,
+    "description": "Yeni kullanıcılar için %20 indirim"
+  },
+  {
+    "code": "LEZZET50",
+    "discountType": "fixed",
+    "discountValue": 50,
+    "minOrderAmount": 200,
+    "isActive": true,
+    "description": "200₺ ve üzeri siparişlerde 50₺ indirim"
+  },
+  {
+    "code": "TATLITATIL",
+    "discountType": "percentage",
+    "discountValue": 15,
+    "minOrderAmount": 100,
+    "isActive": true,
+    "description": "Tatlı siparişlerinde %15 indirim"
+  }
+]

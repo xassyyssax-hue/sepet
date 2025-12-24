@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ana-yemekler",
+    "name": "Ana Yemekler",
+    "description": "Izgara et ve geleneksel tabaklar",
+    "icon": "🍽️"
+  },
+  {
+    "id": "burgerler",
+    "name": "Burgerler",
+    "description": "Gurme burger seçimleri",
+    "icon": "🍔"
+  },
+  {
+    "id": "pizzalar",
+    "name": "Pizzalar",
+    "description": "Taş fırın pizza çeşitleri",
+    "icon": "🍕"
+  },
+  {
+    "id": "salatalar",
+    "name": "Salatalar",
+    "description": "Taze ve hafif salatalar",
+    "icon": "🥗"
+  },
+  {
+    "id": "icecekler",
+    "name": "İçecekler",
+    "description": "El yapımı soğuk ve sıcak içecekler",
+    "icon": "🥤"
+  },
+  {
+    "id": "tatlilar",
+    "name": "Tatlılar",
+    "description": "Anadolu esintili tatlılar",
+    "icon": "🍰"
+  }
+]

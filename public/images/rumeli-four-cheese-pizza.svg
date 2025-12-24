@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff7e6"/>
+      <stop offset="100%" stop-color="#f9e7c9"/>
+    </linearGradient>
+    <radialGradient id="crust" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#f2c57c"/>
+      <stop offset="100%" stop-color="#d99a3a"/>
+    </radialGradient>
+    <radialGradient id="cheese" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fff2a6"/>
+      <stop offset="100%" stop-color="#f0c55c"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="400" cy="320" r="220" fill="url(#crust)"/>
+  <circle cx="400" cy="320" r="185" fill="url(#cheese)"/>
+
+  <g fill="#fef3c7">
+    <circle cx="340" cy="250" r="24"/>
+    <circle cx="470" cy="260" r="22"/>
+    <circle cx="400" cy="340" r="26"/>
+    <circle cx="300" cy="360" r="18"/>
+    <circle cx="500" cy="360" r="20"/>
+  </g>
+
+  <g fill="#f5deb3">
+    <circle cx="370" cy="290" r="10"/>
+    <circle cx="440" cy="300" r="12"/>
+    <circle cx="420" cy="380" r="10"/>
+    <circle cx="330" cy="320" r="8"/>
+    <circle cx="480" cy="320" r="8"/>
+  </g>
+
+  <text x="400" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#8b5a2b">
+    Rumeli Four Cheese Pizza
+  </text>
+</svg>
